@@ -1,0 +1,14 @@
+<header>
+  <div>
+    <h1>L'armateur</h1>
+    <app-search-input-component />
+    <a routerLink="/account">account</a>
+  </div>
+  <nav>
+    <ul>
+      <li *ngFor="let page of pages">
+        <a [routerLink]="page.path">{{ page.path }}</a>
+      </li>
+    </ul>
+  </nav>
+</header>
