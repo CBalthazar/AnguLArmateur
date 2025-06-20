@@ -1,0 +1,14 @@
+@use "../styles.scss";
+
+$main-color: #095256;
+$sub-main-color: #d33f49;
+$third-color: #070600;
+$forth-color: #fcf6b1;
+$fifth-color: #75b9be;
+
+main {
+  width: 100%;
+  flex: 1;
+  background-color: $forth-color;
+  display: flex;
+}

@@ -1,6 +1,6 @@
 @use "@app/app.scss";
 
 footer {
-  position: absolute;
+  background-color: app.$sub-main-color;
   bottom: 0;
 }
