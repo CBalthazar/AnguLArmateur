@@ -1,0 +1,26 @@
+@use "@app/app.scss";
+
+.card {
+  width: 16em;
+  padding: 1em;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: app.$third-color;
+  display: flex;
+}
+
+.img-box {
+  width: 14em;
+  height: 14em;
+  background-color: app.$sub-main-color;
+  justify-self: center;
+  align-self: center;
+}
+
+.horizontal {
+  flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
+}

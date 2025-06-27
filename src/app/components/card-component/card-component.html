@@ -1,0 +1,11 @@
+<div class="card" *ngClass="isVertical()?'vertical':'horizontal'">
+  <div class="img-box">
+    <img src="" alt="">
+  </div>
+  <div>
+    <h4>{{card()?.title}}</h4>
+    <p>{{card()?.artist}}</p>
+    <p>{{card()?.date}}</p>
+    <p>{{card()?.description}}</p>
+  </div>
+</div>

@@ -8,3 +8,9 @@ body {
   min-height: 100vh;
   display: flex;
 }
+
+:host {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

@@ -16,8 +16,9 @@
     "module": "preserve",
     "paths": {
       "@app/*": ["./src/app/*"],
-      "@pages/*": ["./src/app/pages/*"],
       "@components/*": ["./src/app/components/*"],
+      "@models/*": ["./src/models/*"],
+      "@pages/*": ["./src/app/pages/*"],
       "@utils/*": ["./src/app/utils/*"]
     }
   },
